@@ -1,0 +1,54 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+}
+/* NavBar*/
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+/* Icons */
+ul li .fa {
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+}
+
+.snap-chat-color {
+    color: rgb(255, 255, 0);
+}
+
+.instagram-color {
+    color:brown
+}
+
+.facebook-color{
+    color: rgb(51, 70, 158);
+}
+
+
+
+nav {
+	height: 100px;
+	width: 100%;
+}
+
+.banner-area {
+	width: 100%;
+	height: 500px;
+	top: 100px;
+	background-image: url(https://images.pexels.com/photos/2193264/pexels-photo-2193264.jpeg?cs=srgb&dl=pexels-rijan-hamidovic-2193264.jpg&fm=jpg);
+	background-size: cover;
+}
+.banner-area h2 {
+	padding-top: 8%;
+	font-size: 70px;
+	font-family: poppins;
+	text-transform: uppercase;
+	color: #fff;
+}
