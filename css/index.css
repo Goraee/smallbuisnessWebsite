@@ -6,6 +6,10 @@
 body {
 	text-align: center;
 }
+div {
+	margin-left: 30px;
+	margin-right: 30px;
+}
 /* NavBar*/
 .navbar-nav.navbar-center {
     position: absolute;
@@ -42,7 +46,7 @@ nav {
 	width: 100%;
 	height: 500px;
 	top: 100px;
-	background-image: url(https://images.pexels.com/photos/2193264/pexels-photo-2193264.jpeg?cs=srgb&dl=pexels-rijan-hamidovic-2193264.jpg&fm=jpg);
+	background-image: url(https://scontent-lax3-1.xx.fbcdn.net/v/t1.6435-9/53327599_747977065575786_2957961556056342528_n.jpg?stp=cp0_dst-jpg_e15_q65_s640x640&_nc_cat=102&ccb=1-5&_nc_sid=dd9801&_nc_ohc=UnjFNjD3iUEAX94PI5t&_nc_oc=AQm6zW4F6fdVQRysHxsuotYz0FSSr2pt942f1JD_y37THosXGenUzgZOIDrSkELctMWNx6dGoMdLBMQvdDLmr_9D&_nc_ht=scontent-lax3-1.xx&oh=00_AT-D9Mcs_VP0FwPsGZDsizghDdxUW8NyFcLTfkaV2m3EDQ&oe=627D41D4);
 	background-size: cover;
 }
 .banner-area h2 {
@@ -50,5 +54,62 @@ nav {
 	font-size: 70px;
 	font-family: poppins;
 	text-transform: uppercase;
-	color: #fff;
+	text-align: center;
+	color: rgb(161, 107, 19);
 }
+
+.information {
+	padding-top: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	justify-content: center;
+	background-color: rgb(199, 159, 89);
+}
+
+.nav-right {
+	justify-content: right;
+}
+
+.images-center{
+	justify-content: space-evenly;
+}
+
+.order {
+	width: 100%;
+	height: 600px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #ffb964;
+}
+
+.who {
+	text-align: center;
+	font-size: 60px;
+	color: rgb(233, 215, 193)
+}
+
+.col {
+	width: 300px;
+}
+.who1 {
+	text-align: center;
+	font-size: 60px;
+	color: #ffb964;
+}
+.order .left{
+	width: 900px;
+}
+
+.left p {
+	margin-top: 30px;
+	margin-left: 60px;
+	font-size: 1.5em;
+}
+
+.order .right{
+	width:300px;
+	margin-left: 500px;
+	margin-top: 50px;
+}
+
